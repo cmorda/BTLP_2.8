@@ -126,7 +126,7 @@ defaultPing: 0
 components:
 # Three info slots at the top
 - {text: "&bServer: &e${viewer server}", icon: "default/server.png", ping: 0} # 1st row, 1st column
-- {text: "&bRank: &e${viewer vault_primary_group}", icon: "default/rank.png", ping: 0} # 1st row, 2nd column
+- {text: "&bPlaytime: &e${viewer bungeeonlinetime_hours}", icon: "default/rank.png", ping: 0} # 1st row, 2nd column
 # Show ping in different colors depending on how good/ bad it is
 - {text: "&bPing: ${viewer_colored_ping}ms", icon: "default/ping.png", ping: 0} # 1st row, 3rd column
 # A row of empty slots below
