@@ -67,7 +67,7 @@ customPlaceholders:
   # if it is below 50ms, otherwise in yellow.
   viewer_colored_ping0:
     !conditional
-    condition: "${viewer ping} < 50"
+    condition: "${viewer ping} < 120"
     true: "&a${viewer ping}"
     false: "&e${viewer ping}"
   # Defines ${the viewer_colored_ping} placeholder which displays the ping in red
@@ -79,7 +79,7 @@ customPlaceholders:
   # 150+     -> red
   viewer_colored_ping:
     !conditional
-    condition: "${viewer ping} < 150"
+    condition: "${viewer ping} < 200"
     true: ${viewer_colored_ping0}
     false: "&c${viewer ping}"
 
