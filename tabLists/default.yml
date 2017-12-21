@@ -164,57 +164,57 @@ components:
 - !animated # 19th row, 1st column
   interval: 0.2
   components:
-  - {text: "&6&c=&6==============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=&c=&6=============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==&c=&6============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===&c=&6===========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6====&c=&6==========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=====&c=&6=========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6======&c=&6========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=======&c=&6=======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6========&c=&6======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=========&c=&6=====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==========&c=&6====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===========&c=&6===", icon: "colors/gold.png", ping: 0}
-  - {text: "&6============&c=&6==", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=============&c=&6=", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==============&c=&6", icon: "colors/gold.png", ping: 0}
+  - {text: "&6&e=&b==============", icon: "colors/gold.png", ping: 0}
+  - {text: "&6=&e=&b=============", icon: "colors/gold.png", ping: 0}
+  - {text: "&6==&e=&b============", icon: "colors/gold.png", ping: 0}
+  - {text: "&6===&e=&b===========", icon: "colors/gold.png", ping: 0}
+  - {text: "&6====&e=&b==========", icon: "colors/gold.png", ping: 0}
+  - {text: "&6=====&e=&b=========", icon: "colors/gold.png", ping: 0}
+  - {text: "&6======&e=&b========", icon: "colors/gold.png", ping: 0}
+  - {text: "&6=======&e=&b=======", icon: "colors/gold.png", ping: 0}
+  - {text: "&6========&e=&b======", icon: "colors/gold.png", ping: 0}
+  - {text: "&6=========&e=&b=====", icon: "colors/gold.png", ping: 0}
+  - {text: "&6==========&e=&b====", icon: "colors/gold.png", ping: 0}
+  - {text: "&6===========&e=&b===", icon: "colors/gold.png", ping: 0}
+  - {text: "&6============&e=&b==", icon: "colors/gold.png", ping: 0}
+  - {text: "&6=============&e=&b=", icon: "colors/gold.png", ping: 0}
+  - {text: "&6==============&e=&b", icon: "colors/gold.png", ping: 0}
 - !animated # 19th row, 2nd column
   interval: 0.2
   components:
-  - {text: "&6&c=&6==============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=&c=&6=============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==&c=&6============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===&c=&6===========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6====&c=&6==========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=====&c=&6=========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6======&c=&6========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=======&c=&6=======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6========&c=&6======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=========&c=&6=====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==========&c=&6====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===========&c=&6===", icon: "colors/gold.png", ping: 0}
-  - {text: "&6============&c=&6==", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=============&c=&6=", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==============&c=&6", icon: "colors/gold.png", ping: 0}
+  - {text: "&b&e=&b==============", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=&e=&b=============", icon: "colors/gold.png", ping: 0}
+  - {text: "&b==&e=&b============", icon: "colors/gold.png", ping: 0}
+  - {text: "&b===&e=&b===========", icon: "colors/gold.png", ping: 0}
+  - {text: "&b====&e=&b==========", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=====&e=&b=========", icon: "colors/gold.png", ping: 0}
+  - {text: "&b======&e=&b========", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=======&e=&b=======", icon: "colors/gold.png", ping: 0}
+  - {text: "&b========&e=&b======", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=========&e=&b=====", icon: "colors/gold.png", ping: 0}
+  - {text: "&b==========&e=&b====", icon: "colors/gold.png", ping: 0}
+  - {text: "&b===========&e=&b===", icon: "colors/gold.png", ping: 0}
+  - {text: "&b============&e=&b==", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=============&e=&b=", icon: "colors/gold.png", ping: 0}
+  - {text: "&b==============&e=&b", icon: "colors/gold.png", ping: 0}
 - !animated # 19th row, 3rd column
   interval: 0.2
   components:
-  - {text: "&6&c=&6==============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=&c=&6=============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==&c=&6============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===&c=&6===========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6====&c=&6==========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=====&c=&6=========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6======&c=&6========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=======&c=&6=======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6========&c=&6======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=========&c=&6=====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==========&c=&6====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===========&c=&6===", icon: "colors/gold.png", ping: 0}
-  - {text: "&6============&c=&6==", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=============&c=&6=", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==============&c=&6", icon: "colors/gold.png", ping: 0}
-- {text: "&cTime: &6${time H:mm:ss}", icon: "default/clock.png", ping: 0} # 20th row, 1st column
-- {text: "&cPlayers: &6${playerset:global size}", icon: "default/players.png", ping: 0} # 20th row, 2nd column
-- {text: "&cBalance: &6${viewer vault_balance 1.2}", icon: "default/balance.png", ping: 0} # 20th row, 3rd column
+  - {text: "&b&e=&b==============", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=&e=&b=============", icon: "colors/gold.png", ping: 0}
+  - {text: "&b==&e=&b============", icon: "colors/gold.png", ping: 0}
+  - {text: "&b===&e=&b===========", icon: "colors/gold.png", ping: 0}
+  - {text: "&b====&e=&b==========", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=====&e=&b=========", icon: "colors/gold.png", ping: 0}
+  - {text: "&b======&e=&b========", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=======&e=&b=======", icon: "colors/gold.png", ping: 0}
+  - {text: "&b========&e=&b======", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=========&e=&b=====", icon: "colors/gold.png", ping: 0}
+  - {text: "&b==========&e=&b====", icon: "colors/gold.png", ping: 0}
+  - {text: "&b===========&e=&b===", icon: "colors/gold.png", ping: 0}
+  - {text: "&b============&e=&b==", icon: "colors/gold.png", ping: 0}
+  - {text: "&b=============&e=&b=", icon: "colors/gold.png", ping: 0}
+  - {text: "&b==============&e=&b", icon: "colors/gold.png", ping: 0}
+- {text: "&bTime: &e${time H:mm:ss}", icon: "CavemanlyMan", ping: 0} # 20th row, 1st column
+- {text: "&bPlayers: &e${playerset:global size}", icon: "_Syntax_Error", ping: 0} # 20th row, 2nd column
+- {text: "&bBalance: &e${viewer vault_balance 1.2}", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
