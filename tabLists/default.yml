@@ -119,8 +119,8 @@ size: 60 # 60 slots -> 3 columns, 20 rows
 
 # The defaultIcon and defaultPing will be used for all slots for which no other value is
 # explicitely set.
-defaultIcon: colors/dark_gray.png
-defaultPing: 1000
+defaultIcon: MHF_question
+defaultPing: 0
 
 # Here the content of the tab list is configured:
 components:
