@@ -125,8 +125,8 @@ defaultPing: 0
 # Here the content of the tab list is configured:
 components:
 # Three info slots at the top
-- {text: "&bServer: &e${viewer server}", icon: "default/server.png", ping: 0} # 1st row, 1st column
-- {text: "&bPlaytime: &e${viewer bungeeonlinetime_hours}", icon: "default/rank.png", ping: 0} # 1st row, 2nd column
+- {text: "&bServer: &e${viewer server}", icon: "SKIN=Zdok", ping: 0} # 1st row, 1st column
+- {text: "&bPlaytime: &e${viewer bungeeonlinetime_hours}", icon: "SKIN=Ali_Mora", ping: 0} # 1st row, 2nd column
 # Show ping in different colors depending on how good/ bad it is
 - {text: "&bPing: ${viewer_colored_ping}ms", icon: "default/ping.png", ping: 0} # 1st row, 3rd column
 # A row of empty slots below
@@ -215,9 +215,9 @@ components:
   - {text: "&b============&e=&b==", icon: "colors/gold.png", ping: 0}
   - {text: "&b=============&e=&b=", icon: "colors/gold.png", ping: 0}
   - {text: "&b==============&e=&b", icon: "colors/gold.png", ping: 0}
-- {text: "&bZ: &e${viewer location_x}", icon: "Katsuki_Shouta", ping: 0}
-- {text: "&bY: &e${viewer location_y}", icon: "Dustehhh", ping: 0}
-- {text: "&bX: &e${viewer location_z}", icon: "SuperLinkNL", ping: 0}
-- {text: "&bTime: &e${time H:mm:ss}", icon: "CavemanlyMan", ping: 0} # 20th row, 1st column
-- {text: "&bPlayers: &e${playerset:global size}", icon: "_Syntax_Error", ping: 0} # 20th row, 2nd column
-- {text: "&bBalance: &e${viewer vault_balance 1.2}", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
+- {text: "&bZ: &e${viewer location_x}", icon: "SKIN=Katsuki_Shouta", ping: 0}
+- {text: "&bY: &e${viewer location_y}", icon: "SKIN=Dustehhh", ping: 0}
+- {text: "&bX: &e${viewer location_z}", icon: "SKIN=SuperLinkNL", ping: 0}
+- {text: "&bTime: &e${time H:mm:ss}", icon: "SKIN=CavemanlyMan", ping: 0} # 20th row, 1st column
+- {text: "&bPlayers: &e${playerset:global size}", icon: "SKIN=_Syntax_Error", ping: 0} # 20th row, 2nd column
+- {text: "&bBalance: &e${viewer vault_balance 1.2}", icon: "SKIN=LadyKaviir", ping: 0} # 20th row, 3rd column
