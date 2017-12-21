@@ -22,37 +22,34 @@ showTo: "all"
 
 # If after evaluating the showTo option of all tab list configs multiple tab lists
 # are visible to a player, he will bw shown the one with the highest priority:
-priority: 0
+priority: 1
 
 # Tab list header and footer:
 showHeaderFooter: true
 
 header:
-- '&cWelcome &f${viewer name}'
-- '&eW&celcome &f${viewer name}'
-- '&eWe&clcome &f${viewer name}'
-- '&eWel&ccome &f${viewer name}'
-- '&eWelc&come &f${viewer name}'
-- '&eWelco&cme &f${viewer name}'
-- '&eWelcom&ce &f${viewer name}'
-- '&eWelcome &f${viewer name}'
-- '&cW&eelcome &f${viewer name}'
-- '&cWe&elcome &f${viewer name}'
-- '&cWel&ecome &f${viewer name}'
-- '&cWelc&eome &f${viewer name}'
-- '&cWelco&eme &f${viewer name}'
-- '&cWelcom&ee &f${viewer name}'
-- '&cWelcome &f${viewer name}'
+- '&bWelcome &6${viewer name}'
+- '&eW&belcome &6${viewer name}'
+- '&eWe&blcome &6${viewer name}'
+- '&eWel&bcome &6${viewer name}'
+- '&eWelc&bome &6${viewer name}'
+- '&eWelco&bme &6${viewer name}'
+- '&eWelcom&be &6${viewer name}'
+- '&eWelcome &6${viewer name}'
+- '&bW&eelcome &6${viewer name}'
+- '&bWe&elcome &6${viewer name}'
+- '&bWel&ecome &6${viewer name}'
+- '&bWelc&eome &6${viewer name}'
+- '&bWelco&eme &6${viewer name}'
+- '&bWelcom&ee &6${viewer name}'
+- '&bWelcome &6${viewer name}'
 
-headerAnimationUpdateInterval: 0.2
+headerAnimationUpdateInterval: 0.25
 
 footer:
 - |-
-  &6Line 1
-  &eLine 2
-- |-
-  &eLine 1
-  &6Line 2
+  &bLionheartMC.net &e&lPlayers In Hub: &b{players:hub} &bLionheartMC.net
+  &bJoin our discord: https://discord.gg/BMfPYpT
 
 footerAnimationUpdateInterval: 0.5
 
