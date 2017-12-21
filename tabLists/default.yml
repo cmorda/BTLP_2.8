@@ -220,4 +220,4 @@ components:
 - {text: "&bX: &e${viewer location_z}", icon: "SKIN=SuperLinkNL", ping: 0}
 - {text: "&bTime: &e${time H:mm:ss}", icon: "SKIN=CavemanlyMan", ping: 0} # 20th row, 1st column
 - {text: "&bPlayers: &e${playerset:global size}", icon: "SKIN=_Syntax_Error", ping: 0} # 20th row, 2nd column
-- {text: "&bBalance: &e${viewer vault_balance 1.2}", icon: "SKIN=LadyKaviir", ping: 0} # 20th row, 3rd column
+- {text: "&bBalance: &e${viewer vault_balance}", icon: "SKIN=LadyKaviir", ping: 0} # 20th row, 3rd column
