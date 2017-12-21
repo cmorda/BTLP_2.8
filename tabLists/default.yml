@@ -125,12 +125,12 @@ defaultPing: 0
 # Here the content of the tab list is configured:
 components:
 # Three info slots at the top
-- {text: "&cServer: &6${viewer server}", icon: "default/server.png", ping: 0} # 1st row, 1st column
-- {text: "&cRank: &6${viewer vault_primary_group}", icon: "default/rank.png", ping: 0} # 1st row, 2nd column
+- {text: "&bServer: &e${viewer server}", icon: "default/server.png", ping: 0} # 1st row, 1st column
+- {text: "&bRank: &e${viewer vault_primary_group}", icon: "default/rank.png", ping: 0} # 1st row, 2nd column
 # Show ping in different colors depending on how good/ bad it is
-- {text: "&cPing: ${viewer_colored_ping}ms", icon: "default/ping.png", ping: 0} # 1st row, 3rd column
+- {text: "&bPing: ${viewer_colored_ping}ms", icon: "default/ping.png", ping: 0} # 1st row, 3rd column
 # A row of empty slots below
-- {text: "", icon: "colors/dark_gray.png", ping: 1000} # 2nd row, 1st column
+- {text: "", icon: "colors/dark_gray.png", ping: 0} # 2nd row, 1st column
 - {text: ""} # 2nd row, 2nd column; Since icon and ping are the default they don't need to be specified explicitely.
 - {} # 2nd row, 3rd column; Since the text is empty it doesn't need to be specified either
 # The players by server component adds players to the tab list grouped by server
@@ -140,7 +140,7 @@ components:
   # The server header is shown for each server above the players on that server.
   # We use it to display the server name and the player count.
   serverHeader:
-  - {text: "&e&n${server}&f&o (${server_player_count}):", icon: "colors/yellow.png", ping: 0}
+  - {text: "&a&n${server}&f&o (${server_player_count}):", icon: "colors/green.png", ping: 0}
   # The server separator is shown between two consecutive servers. 
   # Here it use used to separate the servers with an empty row of slots, showing two more variants to display an empty slot.
   serverSeparator:
@@ -148,7 +148,7 @@ components:
   - ""
   -
   # Whether empty servers should show up too
-  includeEmptyServers: true
+  includeEmptyServers: false
   # Format of the player slot. Add prefixes as you like
   playerComponent: "${player vault_prefix}${player name}${afk_tag}"
   # If there isn't enough space for all players the morePlayersComponent is displayed. We use to to display the number of players which couldn't be displayed on the tab list.
