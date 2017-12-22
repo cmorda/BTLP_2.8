@@ -89,6 +89,7 @@ playerSets:
   # The global player set contains all players
   global:
     filter: "true"
+    hiddenPlayers: VISIBLE_TO_ADMINS
 # # Some more examples. Be careful to get the number of spaces right when using them.
 # # Player set containing all players on a specific server:
 # survival:
