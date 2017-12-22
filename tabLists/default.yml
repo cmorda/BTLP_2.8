@@ -48,7 +48,7 @@ headerAnimationUpdateInterval: 0.25
 
 footer:
 - |-
-  &bLionheartMC.net &e&lPlayers In Hub: &b{players:hub} &bLionheartMC.net
+  &bLionheartMC.net &e&lPlayers In Hub: &b${playerset:hub size} &bLionheartMC.net
   &bJoin our discord: https://discord.gg/BMfPYpT
 
 footerAnimationUpdateInterval: 0.5
