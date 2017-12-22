@@ -131,7 +131,7 @@ defaultPing: 0
 components:
 # Three info slots at the top
 - {text: "&bServer: &e${viewer server}", icon: "Zdok", ping: 0} # 1st row, 1st column
-- {text: "&bPlaytime(hours): &e${player bungeeonlinetime_hours}", icon: "Ali_Mora", ping: 0} # 1st row, 2nd column
+- {text: "&bWorld: &e${viewer world}", icon: "Ali_Mora", ping: 0} # 1st row, 2nd column
 # Show ping in different colors depending on how good/ bad it is
 - {text: "&bPing: ${viewer_colored_ping}ms", icon: "default/ping.png", ping: 0} # 1st row, 3rd column
 # A row of empty slots below
@@ -227,9 +227,9 @@ components:
   - {text: "&b============&e=&b==", icon: "colors/gold.png", ping: 0}
   - {text: "&b=============&e=&b=", icon: "colors/gold.png", ping: 0}
   - {text: "&b==============&e=&b", icon: "colors/gold.png", ping: 0}
-- {text: "&bX: &e${player location_x}", icon: "Katsuki_Shouta", ping: 0}
-- {text: "&bY: &e${player location_y}", icon: "Dustehhh", ping: 0}
-- {text: "&bZ: &e${player location_z}", icon: "SuperLinkNL", ping: 0}
+- {text: "&bX: &e${viewer location_x}", icon: "Katsuki_Shouta", ping: 0}
+- {text: "&bY: &e${viewer location_y}", icon: "Dustehhh", ping: 0}
+- {text: "&bZ: &e${viewer location_z}", icon: "SuperLinkNL", ping: 0}
 - {text: "&bTime: &e${time H:mm:ss}", icon: "CavemanlyMan", ping: 0} # 20th row, 1st column
 - {text: "&bPlayers: &e${playerset:global size}", icon: "_Syntax_Error", ping: 0} # 20th row, 2nd column
-- {text: "&bBalance: &e${viewer vault_balance2}", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
+- {text: "&bOnline for(minutes): &e${viewer session_duration_minutes}", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
