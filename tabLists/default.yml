@@ -232,4 +232,4 @@ components:
 - {text: "&bZ: &e${viewer location_z}", icon: "SuperLinkNL", ping: 0}
 - {text: "&bTime: &e${time H:mm:ss}", icon: "CavemanlyMan", ping: 0} # 20th row, 1st column
 - {text: "&bPlayers: &e${playerset:global size}", icon: "_Syntax_Error", ping: 0} # 20th row, 2nd column
-- {text: "&bOnline for(minutes): &e${viewer session_duration_minutes}", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
+- {text: "&bOnline for(min): &e${viewer session_duration_minutes}", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
