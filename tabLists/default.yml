@@ -230,4 +230,4 @@ components:
 - !spacer {}
 - {text: "&bTime: &e${time H:mm:ss}", icon: "CavemanlyMan", ping: 0} # 20th row, 1st column
 - {text: "&bPlayers: &e${playerset:global size}", icon: "_Syntax_Error", ping: 0} # 20th row, 2nd column
-- {text: "&bOnline for(min): &e${viewer session_duration_minutes}", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
+- {text: "&bOnline for: &e${viewer session_duration_hours}h,${viewer session_duration_minutes}m", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
