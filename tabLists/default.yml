@@ -164,7 +164,7 @@ components:
   # If there isn't enough space for all players the morePlayersComponent is displayed. We use to to display the number of players which couldn't be displayed on the tab list.
   morePlayersComponent: {text: "&7... and &e${other_count} &7others", icon: "colors/gray.png", ping: 0}
   fillSlotsVertical: true
-  minSizePerServer: 9
+  minSizePerServer: 3
 # A spacer creates as many empty slots as possible.
 - !spacer {}
 # Because the spacer has eaten up all the remaining free slots, the nine slots below are guaranteed to be at the bottom of the tab list.
