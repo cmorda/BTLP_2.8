@@ -90,6 +90,10 @@ playerSets:
   global:
     filter: "true"
     hiddenPlayers: VISIBLE_TO_ADMINS
+  hub:
+    filter: |-
+      ${player server} == "hub"
+    hiddenPlayers: VISIBLE_TO_ADMINS
 # # Some more examples. Be careful to get the number of spaces right when using them.
 # # Player set containing all players on a specific server:
 # survival:
@@ -127,7 +131,7 @@ defaultPing: 0
 components:
 # Three info slots at the top
 - {text: "&bServer: &e${viewer server}", icon: "Zdok", ping: 0} # 1st row, 1st column
-- {text: "&bPlaytime: &e${viewer bungeeonlinetime_hours}", icon: "Ali_Mora", ping: 0} # 1st row, 2nd column
+- {text: "&bPlaytime(hours): &e${player bungeeonlinetime_hours}", icon: "Ali_Mora", ping: 0} # 1st row, 2nd column
 # Show ping in different colors depending on how good/ bad it is
 - {text: "&bPing: ${viewer_colored_ping}ms", icon: "default/ping.png", ping: 0} # 1st row, 3rd column
 # A row of empty slots below
@@ -138,6 +142,9 @@ components:
 - !players_by_server
   # The global player set is configured above
   playerSet: global
+  playerOrder: "alphabetically"
+  serverOrder: custom
+  customServerOrder: [skyblock, survival, plots, hardcore]
   # The server header is shown for each server above the players on that server.
   # We use it to display the server name and the player count.
   serverHeader:
@@ -149,11 +156,15 @@ components:
   - ""
   -
   # Whether empty servers should show up too
-  includeEmptyServers: false
+  includeEmptyServers: true
+  showServers: ALL
+  hiddenServers: [hub, skygrid, vanilla, cole, pixelmon, prison]
   # Format of the player slot. Add prefixes as you like
   playerComponent: "${player vault_prefix}${player name}${afk_tag}"
   # If there isn't enough space for all players the morePlayersComponent is displayed. We use to to display the number of players which couldn't be displayed on the tab list.
   morePlayersComponent: {text: "&7... and &e${other_count} &7others", icon: "colors/gray.png", ping: 0}
+  fillSlotsVertical: true
+  minSizePerServer: 9
 # A spacer creates as many empty slots as possible.
 - !spacer {}
 # Because the spacer has eaten up all the remaining free slots, the nine slots below are guaranteed to be at the bottom of the tab list.
@@ -216,9 +227,9 @@ components:
   - {text: "&b============&e=&b==", icon: "colors/gold.png", ping: 0}
   - {text: "&b=============&e=&b=", icon: "colors/gold.png", ping: 0}
   - {text: "&b==============&e=&b", icon: "colors/gold.png", ping: 0}
-- {text: "&bZ: &e${viewer location_x}", icon: "Katsuki_Shouta", ping: 0}
-- {text: "&bY: &e${viewer location_y}", icon: "Dustehhh", ping: 0}
-- {text: "&bX: &e${viewer location_z}", icon: "SuperLinkNL", ping: 0}
+- {text: "&bX: &e${player location_x}", icon: "Katsuki_Shouta", ping: 0}
+- {text: "&bY: &e${player location_y}", icon: "Dustehhh", ping: 0}
+- {text: "&bZ: &e${player location_z}", icon: "SuperLinkNL", ping: 0}
 - {text: "&bTime: &e${time H:mm:ss}", icon: "CavemanlyMan", ping: 0} # 20th row, 1st column
 - {text: "&bPlayers: &e${playerset:global size}", icon: "_Syntax_Error", ping: 0} # 20th row, 2nd column
-- {text: "&bBalance: &e${viewer vault_balance}", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
+- {text: "&bBalance: &e${viewer vault_balance2}", icon: "LadyKaviir", ping: 0} # 20th row, 3rd column
