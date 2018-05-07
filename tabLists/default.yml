@@ -144,7 +144,7 @@ components:
   playerSet: global
   playerOrder: "alphabetically"
   serverOrder: custom
-  customServerOrder: [skyblock, survival, plots, hardcore]
+  customServerOrder: [skyblock, survival, prison, plots]
   # The server header is shown for each server above the players on that server.
   # We use it to display the server name and the player count.
   serverHeader:
@@ -158,13 +158,13 @@ components:
   # Whether empty servers should show up too
   includeEmptyServers: true
   showServers: ALL
-  hiddenServers: [hub, skygrid, vanilla, cole, pixelmon, prison, fort]
+  hiddenServers: [hub, skygrid, vanilla, cole, pixelmon, hardcore, fort]
   # Format of the player slot. Add prefixes as you like
   playerComponent: "${player vault_prefix}${player name}${afk_tag}"
   # If there isn't enough space for all players the morePlayersComponent is displayed. We use to to display the number of players which couldn't be displayed on the tab list.
   morePlayersComponent: {text: "&7... and &e${other_count} &7others", icon: "colors/gray.png", ping: 0}
   fillSlotsVertical: true
-  minSizePerServer: 3
+  minSizePerServer: 1
 # A spacer creates as many empty slots as possible.
 - !spacer {}
 # Because the spacer has eaten up all the remaining free slots, the nine slots below are guaranteed to be at the bottom of the tab list.
