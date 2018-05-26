@@ -158,7 +158,7 @@ components:
   # Whether empty servers should show up too
   includeEmptyServers: true
   showServers: ALL
-  hiddenServers: [hub, skygrid, vanilla, cole, pixelmon, hardcore, fort]
+  hiddenServers: [hub, skygrid, vanilla, cole, pixelmon, hardcore, fort, block]
   # Format of the player slot. Add prefixes as you like
   playerComponent: "${player vault_prefix}${player name}${afk_tag}"
   # If there isn't enough space for all players the morePlayersComponent is displayed. We use to to display the number of players which couldn't be displayed on the tab list.
